@@ -14,7 +14,7 @@ import com.cursospringboot.curso.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResourece {
+public class UserResource {
 	@Autowired
 	private UserService userService;
 
