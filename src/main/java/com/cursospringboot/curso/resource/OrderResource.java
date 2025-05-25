@@ -13,7 +13,7 @@ import com.cursospringboot.curso.entities.Order;
 import com.cursospringboot.curso.services.OrderService;
 
 @RestController
-@RequestMapping(value = "/Orders")
+@RequestMapping(value = "/orders")
 
 public class OrderResource {
 	@Autowired
