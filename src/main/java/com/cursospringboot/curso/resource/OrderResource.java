@@ -14,7 +14,6 @@ import com.cursospringboot.curso.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")
-
 public class OrderResource {
 	@Autowired
 	private OrderService OrderService;
